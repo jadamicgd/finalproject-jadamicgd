@@ -35,7 +35,7 @@ the date(s) you worked on the file: 04/27/21 -
 	<h2>Content here</h2>
 	<article>
 	<h3>Article header content</h3>
-		<p>Please make this part look nice. The info in the first column is a label. The information in the text box tells you Exactly what name/id we need to finish the code on our end. However, that information should not display on the page. </p>
+		<!-- <p>Please make this part look nice. The info in the first column is a label. The information in the text box tells you Exactly what name/id we need to finish the code on our end. However, that information should not display on the page. </p> -->
 		<form>
 		  <table style="width: 100%">
 		    <tbody>
@@ -50,14 +50,14 @@ the date(s) you worked on the file: 04/27/21 -
                 <input name="prenom" type="text" id="prenom" value=" "  size="50"></td>
 	          </tr>
 			  <tr>
-		        <th scope="row"><label for="nom">Last / Family Name (nom)</label></th>
+		        <th scope="row"><label for="nom">Last / Family Name (nom) *</label></th>
 		        <td>
-                <input name="nom" type="text" id="nom" value=" "  size="50"></td>
+                <input name="nom" type="text" id="nom" value=" "  size="50" required></td>
 	          </tr>
 			  <tr>
-		        <th scope="row"><label for="address1">Address Line 1</label></th>
+		        <th scope="row"><label for="address1">Address Line 1 *</label></th>
 		        <td>
-                <input name="address1" type="text" id="address1" value=" "  size="50"></td>
+                <input name="address1" type="text" id="address1" value=" "  size="50" required></td>
 	          </tr>
 			  <tr>
 		        <th scope="row"><label for="address2">Address Line 2</label></th>
@@ -70,14 +70,14 @@ the date(s) you worked on the file: 04/27/21 -
                 <input name="address3" type="text" id="address3" value=" "  size="50"></td>
 	          </tr>
 			  <tr>
-		        <th scope="row"><label for="postCode">Postal Code</label></th>
+		        <th scope="row"><label for="postCode">Postal Code *</label></th>
 		        <td>
-                <input name="postCode" type="text" id="postCode" value=" "  size="50"></td>
+                <input name="postCode" type="text" id="postCode" value=" "  size="50" required></td>
 	          </tr>
 			  <tr>
-		        <th scope="row"><label for="city">City</label></th>
+		        <th scope="row"><label for="city">City *</label></th>
 		        <td>
-                <input name="city" type="text" id="city" value=" "  size="50"></td>
+                <input name="city" type="text" id="city" value=" "  size="50" required></td>
 	          </tr>
 			  <tr>
 		        <th scope="row"><label for="state">State</label></th>
@@ -85,19 +85,23 @@ the date(s) you worked on the file: 04/27/21 -
                 <input name="state" type="text" id="state" value=" "  size="50"></td>
 	          </tr>
 			  <tr>
-		        <th scope="row"><label for="country">Country</label></th>
+		        <th scope="row"><label for="country">Country *</label></th>
 		        <td>
-                <input name="country" type="text" id="country" value=" "  size="50"></td>
+                <input name="country" type="text" id="country" value=" "  size="50" required></td>
 	          </tr>
 			  <tr>
-		        <th scope="row"><label for="emailAddr">E-Mail</label></th>
+		        <th scope="row"><label for="emailAddr">E-Mail *</label></th>
 		        <td>
-                <input name="emailAddr" type="email" id="emailAddr" value=" "  size="50"></td>
+                <input name="emailAddr" type="email" id="emailAddr" value=" "  size="50" required></td>
 	          </tr>
 			  <tr>
 		        <th scope="row"><label for="telNum">Daytime Telephone Contact Number</label></th>
 		        <td>
                 <input name="telNum" type="tel" id="telNum" value=" "  size="50"></td>
+	          </tr>
+			  <tr>
+		        <th scope="row"><label for="require">(* required field)</label></th>
+		        
 	          </tr>
 <!-- fill in the rest of the table -->
 	        </tbody>
