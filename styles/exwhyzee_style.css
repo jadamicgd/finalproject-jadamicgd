@@ -1,1 +1,39 @@
+/* .color-primary { color: #373276}	 Main Primary color 
+.color-secondary-1 { color: #D3D383 } Main Secondary color (1) 
+.color-secondary-2 { color: #E1CDAD }  Main Secondary color (2) */
+
+
+
+body {
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+header p {
+	font-size: 80%;
+	line-height: .7em;
+}
+
+nav {
+	border-width: 2px 0px 2px 0px;
+	border-style: solid;
+	border-color: #000000;
+	text-align: center;
+}
+
+h1 {
+	font-size: 210%;
+	line-height: .8em;
+}
+
+h2 {
+	font-size: 160%;
+}
+
+h3 {
+	font-style: italic;
+}
 
