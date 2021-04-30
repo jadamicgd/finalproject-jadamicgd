@@ -2,7 +2,9 @@
 .color-secondary-1 { color: #D3D383 } Main Secondary color (1) 
 .color-secondary-2 { color: #E1CDAD }  Main Secondary color (2) */
 
-
+html {
+	background-color: #F0E8DB;
+}
 
 body {
 	font-family: helvetica, arial, verdana, sans-serif;
@@ -10,30 +12,82 @@ body {
 
 header {
 	text-align: center;
+	background-color: #D3D383;
+	padding: 10px;
 }
 
 header p {
 	font-size: 80%;
-	line-height: .7em;
+	line-height: .6em;
 }
 
 nav {
 	border-width: 2px 0px 2px 0px;
 	border-style: solid;
-	border-color: #000000;
+	border-color: #FFFFFF;
 	text-align: center;
+	background-color: #373276;
+	color: #FFFFFF;
+}
+
+nav a:link {
+	color: #FFFFFF;
+}
+
+nav a:visited {
+	color: #E1CDAD;
+}
+
+nav a:hover {
+	font-style: italic;
+}
+
+nav a:active {
+	font-size: 120%;
 }
 
 h1 {
-	font-size: 210%;
-	line-height: .8em;
+	font-size: 260%;
+	line-height: .6em;
 }
 
 h2 {
-	font-size: 160%;
+	font-size: 200%;
+	color: #373276;
+	font-style: bold;
+	line-height: .8em;
 }
 
 h3 {
 	font-style: italic;
+	line-height: .6em;
 }
 
+ul {
+	list-style-type: square;
+}
+
+table {
+	text-align: center;
+	
+}
+
+table#customerInfo {
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+table#robotTable th {
+	border-bottom: 3px solid #373276; 
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+b {
+	color: #373276;
+}
+
+tr:nth-child(even) {
+	background-color: #F5F5F5;
+}

@@ -3,8 +3,12 @@ body, header, nav, main, footer, table, th, td, tr {
 	background-color: white;
 }
 
-img {
+tr img {
 	display:none;
+}
+
+img {
+	filter: grayscale(100%);
 }
 
 footer {
